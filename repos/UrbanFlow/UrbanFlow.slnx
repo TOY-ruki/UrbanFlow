@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="UrbanFlow/UrbanFlow.vcxproj" Id="61df31ef-d4f8-435d-8755-2edf43d9d3ab" />
+</Solution>

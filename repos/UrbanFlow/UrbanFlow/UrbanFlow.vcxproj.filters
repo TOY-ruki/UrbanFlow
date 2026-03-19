@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{3bf9f76b-2002-4257-8fb7-bf34cde845f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\graph">
+      <UniqueIdentifier>{0a56238a-2c15-439c-8ecc-dc3d3c7e7611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\simulation">
+      <UniqueIdentifier>{11982f42-d23b-478d-9a15-7cd56dd8f0af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\agents">
+      <UniqueIdentifier>{94a7e8be-8e56-4390-a27a-47ebf19374d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UrbanFlow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.cpp">
+      <Filter>core\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>core\agents</Filter>
+    </ClCompile>
+    <ClCompile Include="TrafficEngine.cpp">
+      <Filter>core\simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="ScenarioRunner.cpp">
+      <Filter>core\simulation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Node.h">
+      <Filter>core\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Edge.h">
+      <Filter>core\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph.h">
+      <Filter>core\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>core\agents</Filter>
+    </ClInclude>
+    <ClInclude Include="TrafficEngine.h">
+      <Filter>core\simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenariorunner.h">
+      <Filter>core\simulation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
